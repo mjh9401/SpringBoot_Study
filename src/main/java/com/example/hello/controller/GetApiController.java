@@ -40,7 +40,7 @@ public class GetApiController {
             sb.append(entry.getKey()+" = "+entry.getValue()+"\n");
         });
 
-        return sb.toString()    ;
+        return sb.toString();
     }
 
     @GetMapping("query-param2")
